@@ -1,5 +1,6 @@
+
 body {
-    background-color: black;
+    background-color: rgb(19, 18, 18);
 }
 
 .square-side {
@@ -24,6 +25,11 @@ body {
     background-color: aliceblue;
     font-family: 'Courier New';
 }
+
+
+.blocked {
+    background-color: gray;
+  }
 
 .title h2{
     text-align: center;
