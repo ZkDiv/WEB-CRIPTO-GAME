@@ -1,8 +1,8 @@
 body {
-    background-color: #4a4b4a;
+    background-color: black;
 }
 
-.container {
+.square-side {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,9 +25,17 @@ body {
     font-family: 'Courier New';
 }
 
-.title {
+.title h2{
     text-align: center;
     font-family: 'Courier New';
     font-size: 35px;
     color: #16fa62;
+}
+
+.subtitle h3 {
+    text-align: center;
+    display: flex;
+    font-family: 'Courier New';
+    font-size: 30px;
+    color: aliceblue;
 }
