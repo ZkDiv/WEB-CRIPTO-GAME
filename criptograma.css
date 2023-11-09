@@ -3,34 +3,6 @@ body {
     background-color: rgb(19, 18, 18);
 }
 
-.square-side {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: repeat(11, 1fr);
-    
-}
-
-.square {
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    border: 1px solid #000;
-    font-size: 50px;
-    color: #000;
-    background-color: aliceblue;
-    font-family: 'Courier New';
-}
-
-
-.blocked {
-    background-color: gray;
-  }
-
 .title h2{
     text-align: center;
     font-family: 'Courier New';
@@ -44,4 +16,54 @@ body {
     font-family: 'Courier New';
     font-size: 30px;
     color: aliceblue;
+}
+
+.principal {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1.3fr 1.3fr;
+    margin: 0 auto;
+}
+
+.square-side {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.square-side h2 {
+    color: aliceblue;
+    
+}
+
+.grid {
+    display: grid;
+    padding-left: 5em;
+    padding-top: 4em;
+    grid-template-columns: repeat(11, 1fr);
+    
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    border: 0.5px solid #000;
+    font-size: 45px;
+    background-color: aliceblue;
+    font-family: 'Courier New';
+}
+
+
+.blocked {
+    background-color: gray;
+  }
+
+.questions-side {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    background-color: #16fa62;
+    border-left: 5em;
 }
