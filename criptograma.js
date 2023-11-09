@@ -3,7 +3,7 @@ const grid = document.getElementById('grid');
 for (let i = 0; i < 165; i++) {
   const square = document.createElement('div');
   square.className = 'square';
- 
+
   if (
     (i >= 4 && i < 11) ||
     (i >= 19 && i < 22) ||
@@ -34,9 +34,4 @@ for (let i = 0; i < 165; i++) {
   });
   grid.appendChild(square);
 }
-
-// for (let b = 0; b < 15; b++ ) {
-//   const number = document.createElement(number)
-//   number.innerHTML = b + 1;
-//   number.style.fontSize = "1rem";
-// }
+//dadossssss
