@@ -34,3 +34,9 @@ for (let i = 0; i < 165; i++) {
   });
   grid.appendChild(square);
 }
+
+// for (let b = 0; b < 15; b++ ) {
+//   const number = document.createElement(number)
+//   number.innerHTML = b + 1;
+//   number.style.fontSize = "1rem";
+// }
