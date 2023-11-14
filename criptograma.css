@@ -2,10 +2,17 @@ body {
   background-color: rgb(0, 0, 0);
 }
 
+.container {
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
 .title h2 {
   text-align: center;
   font-family: "Courier New";
-  font-size: 35px;
+  font-size: 32px;
   color: #16fa62;
 }
 
@@ -16,13 +23,6 @@ body {
   font-family: "Courier New";
 }
 
-.subtitle h3 {
-  text-align: center;
-  display: flex;
-  font-family: "Courier New";
-  font-size: 30px;
-  color: aliceblue;
-}
 
 .principal {
   position: relative;
@@ -31,25 +31,28 @@ body {
 }
 
 .square-box {
+  height: 100%;
   display: flex;
   grid-template-columns: 3fr 3fr;
   justify-content: center;
   align-items: center;
-
+}
 .grid {
   display: grid;
-  padding-top: 4em;
+  padding-top: 1em;
   padding-bottom: 5em;
   grid-template-columns: repeat(11, 1fr);
 }
 
+
 .square {
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 68px;
   text-align: center;
   justify-content: center;
-  border: 0.5px solid #000;
+  border: 0.5px solid #d4cece;
   font-size: 45px;
+  display: flex;
   background-color: aliceblue;
   font-family: "Courier New";
 }
@@ -61,18 +64,31 @@ body {
 .questions-side {
     color: aliceblue;
     font-family: "Courier New";
-    display: flex;
+    display: contents;
     justify-content: center;
+    
   }
   
   .questions {
+      position: relative;
       flex-direction: column;
       color: aliceblue;
       font-family: "Courier New";
-      font-size: 20px;
+      font-size: 17px;
       display: flex;
+      margin-top: 20px;
       justify-content: center;
-      padding-top: 4em;
-      padding-bottom: 5em;
-      padding-left: 4em;
+      
+      padding-top: 2em;
+      padding-bottom: 1em;
+      padding-left: 3em;
   }
+
+  .subtitle h3 {
+    text-align: center;
+    display: flex;
+    font-family: "Courier New";
+    font-size: 20px;
+    color: aliceblue;
+  }
+  

@@ -34,4 +34,3 @@ for (let i = 0; i < 165; i++) {
   });
   grid.appendChild(square);
 }
-//dadossssss
