@@ -3,10 +3,9 @@ body {
 }
 
 .container {
-display: flex;
-align-items: center;
-justify-content: center;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .title h2 {
@@ -16,13 +15,11 @@ justify-content: center;
   color: #16fa62;
 }
 
-
 .text {
   color: aliceblue;
   text-align: center;
   font-family: "Courier New";
 }
-
 
 .principal {
   position: relative;
@@ -37,6 +34,7 @@ justify-content: center;
   justify-content: center;
   align-items: center;
 }
+
 .grid {
   display: grid;
   padding-top: 1em;
@@ -44,51 +42,69 @@ justify-content: center;
   grid-template-columns: repeat(11, 1fr);
 }
 
-
 .square {
   width: 70px;
   height: 68px;
+  min-height: 68px;
   text-align: center;
   justify-content: center;
-  border: 0.5px solid #d4cece;
+  border: 0.1px solid #d4cece;
   font-size: 45px;
-  display: flex;
+  display: inline-flex;
+  position: relative;
+  overflow: hidden;
   background-color: aliceblue;
   font-family: "Courier New";
 }
 
 .blocked {
-  background-color: gray;
+  background-color: #cccc;
 }
 
 .questions-side {
-    color: aliceblue;
-    font-family: "Courier New";
-    display: contents;
-    justify-content: center;
-    
-  }
-  
-  .questions {
-      position: relative;
-      flex-direction: column;
-      color: aliceblue;
-      font-family: "Courier New";
-      font-size: 17px;
-      display: flex;
-      margin-top: 20px;
-      justify-content: center;
-      
-      padding-top: 2em;
-      padding-bottom: 1em;
-      padding-left: 3em;
-  }
+  color: aliceblue;
+  font-family: "Courier New";
+  display: contents;
+  justify-content: center;
+}
 
-  .subtitle h3 {
-    text-align: center;
-    display: flex;
-    font-family: "Courier New";
-    font-size: 20px;
-    color: aliceblue;
-  }
-  
+.questions {
+  position: relative;
+  flex-direction: column;
+  color: aliceblue;
+  font-family: "Courier New";
+  font-size: 17px;
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+
+  padding-top: 2em;
+  padding-bottom: 1em;
+  padding-left: 3em;
+}
+
+.subtitle h3 {
+  text-align: center;
+  display: flex;
+  font-family: "Courier New";
+  font-size: 20px;
+  color: aliceblue;
+}
+
+.icon {
+  display: flex;
+  width: 40px;
+  height: 20px;
+  margin-right: 50px;
+  position: relative;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.entered-letter {
+  position: absolute;
+  bottom: 0;
+  right: 13px;
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+}
