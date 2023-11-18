@@ -95,12 +95,6 @@ for (let i = 0; i < 165; i++) {
     displayIcon = false;
   }
 
-  // Lógica para definir qual ícone usar com base no índice
-  if (i === 2) {
-    iconClass = "fa-house"; // Ícone específico para o índice 2
-  } else if (i === 50) {
-    iconClass = "fa-pen"; // Ícone específico para o índice 50
-  }
 
   if (displayIcon) {
     const icon = createIcon(iconClass, false);
